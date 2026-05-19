@@ -7,10 +7,11 @@ ___
 - If a c++ project contains many individual cpp files, they will be translated into an object file respectively.
 ___
 # 预处理
-预处理阶段，编译器处理所有预处理语句(included: \#include, \#define, \#if - \#endif...)
+预处理阶段，编译器处理所有预处理语句(included: \#include, \#define, \#if - \#endif...)。预处理阶段基本上是一个文本编辑阶段。
 ## \#include语句
 编译器在预处理阶段处理include语句时会将include的文件打开然后复制粘帖里面的内容到源文件里
 ## \#define语句
 define语句会将A替换成B `#define A B`
+[[Macro in C++]]
 ## \#if - \#endif
 根据条件选择是否编译该段代码

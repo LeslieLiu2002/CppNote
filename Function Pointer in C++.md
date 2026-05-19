@@ -1,0 +1,41 @@
+函数指针指向的是**函数指令在内存中的地址**。
+# 语法
+```c++
+auto function =HelloWorld;// 其中HelloWorld是一个函数名，function是函数指针
+// function()==HelloWorld()// 加上括号就是在调用函数，它们两的结果一样
+
+// 函数指针的类型声明：返回类型 (*变量名)(参数类型1,参数类型2,...)
+int (*func)(int,int);
+func=add;//add是两整数相加的函数
+
+// 类型别名简化代码
+typedef int (*FuncPtr)(int, int);
+using FuncPtr = int (*)(int,int);
+```
+> [!info] typedef的基本语法
+> `typedef 原类型 新别名;`
+> 函数指针的原类型是`int (*)(int,int)`，新别名是`FuncPtr`
+# 应用场景
+函数指针最强大的应用场景之一是**回调函数 (Callback)** 和自**定义迭代操作**。
+```c++
+void Print(int value)
+{
+	std::cout << value << std::endl;
+}
+
+typedef void (*PrintPtr)(int);
+using PrintPtr = void (*)(int); // 也是可行的
+
+void ForEach(const std::vector<int>& data, PrintPtr func)// PrintPtr只是类型，所以还要定义一个形参
+{
+	for (int datum : data) func(datum);
+}
+// 或者不使用别名的方法
+// void ForEach(const std::vector<int>& data, void (*func)(int))
+// {
+//  	for (int datum : data) func(datum);
+// }
+
+std::vector<int>data{ 1,5,4,3,2 };
+ForEach(data, Print);// 1 5 4 3 2
+```
