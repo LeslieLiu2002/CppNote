@@ -69,12 +69,82 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lambda in C++.md",
+                "file": "Class in C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lambda in C++"
+              "title": "Class in C++"
+            }
+          },
+          {
+            "id": "3bb01d399cffe975",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stack vs Heap Memory in C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stack vs Heap Memory in C++"
+            }
+          },
+          {
+            "id": "e5d2997ca07afd6d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Timing in C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Timing in C++"
+            }
+          },
+          {
+            "id": "7a700bdb2db9280e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Array in C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Array in C++"
+            }
+          },
+          {
+            "id": "98dff3463f312fbd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Destructor in C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Destructor in C++"
+            }
+          },
+          {
+            "id": "0732e77fdb8f1a81",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Virtual Destructor in C++.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Virtual Destructor in C++"
             }
           },
           {
@@ -106,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -125,7 +195,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical",
+                "sortOrder": "byCreatedTimeReverse",
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
@@ -138,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "static",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -268,36 +338,36 @@
       "bases:新建数据库": false
     }
   },
-  "active": "65728d80fbc8ac39",
+  "active": "e5f65fd2fd40bec7",
   "lastOpenFiles": [
+    "Virtual Function in C++.md",
     "Function Pointer in C++.md",
-    "Lambda in C++.md",
-    "Auto Keyword in C++.md",
-    "Array in C++.md",
-    "Template in C++.md",
-    "Static Array in C++(std中的array).md",
-    "References in C++.md",
-    "Const in C++.md",
     "Pointers in C++.md",
+    "Class in C++.md",
     "Macro in C++.md",
+    "C++ Header Files.md",
+    "Inheritance in C++.md",
+    "Virtual Destructor in C++.md",
+    "Destructor in C++.md",
+    "Union in C++.md",
+    "Array in C++.md",
+    "Static Array in C++(std中的array).md",
+    "Multidimensional Arrays in C++(2D array).md",
+    "Timing in C++.md",
+    "Stack vs Heap Memory in C++.md",
+    "Thread in C++.md",
     "How the C++ Compiler Works.md",
     "How C++ Works.md",
-    "How String Works in C++.md",
-    "How the C++ Linker Works.md",
-    "C++ Header Files.md",
-    "Optimizing the usage of Vector.md",
-    "Destructor in C++.md",
-    "Enum in C++.md",
+    "Using Libraries in C++ (Static Linking).md",
+    "Making and Working with Libraries in C++ (Multiple Projects in Visual Studio).md",
+    "Const in C++.md",
+    "Smart Pointers in C++.md",
     "Copying and Copy Constructor in C++.md",
     "Constructor in C++.md",
-    "Stack vs Heap Memory in C++.md",
-    "Member Initializer Lists in C++.md",
     "Interface in C++(Pure Virtual Function).md",
-    "Operator and Operator OverLoading in C++.md",
+    "Lambda in C++.md",
     "未命名 2.base",
-    "Making and Working with Libraries in C++ (Multiple Projects in Visual Studio).md",
     "未命名 1.base",
-    "未命名.base",
-    "Using Dynamic Libraries in C++.md"
+    "未命名.base"
   ]
 }

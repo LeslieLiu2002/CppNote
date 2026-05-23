@@ -1,4 +1,8 @@
 函数指针指向的是**函数指令在内存中的地址**。
+> [!tips] 函数返回值是左值还是右值的判断方法
+> - **非引用返回类型** → 右值（纯右值）`int func() {int x = 0; return x; }`
+> - **左值引用返回类型** → 左值 `int& func() { static int x = 0; return x; }`
+> - **右值引用返回类型** → 右值（亡值）`int&& func() { return 42; }  // 不推荐，仅示例`
 # 语法
 ```c++
 auto function =HelloWorld;// 其中HelloWorld是一个函数名，function是函数指针

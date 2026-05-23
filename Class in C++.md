@@ -3,6 +3,34 @@
 >不加`private`或者`public`时，Class默认是将成员设置为`private`；Struct默认是将成员设置为`public`
 
 也可以把Class和Struct理解成有private和public的命名空间
+# 类的声明和实现
+下面演示带上命名空间的情况。当然可以直接去掉命名空间，因为Class本身就是个命名空间。
+在`MyClass.h`文件中声明类
+```c++
+#include <string>  // 注意点1
+namespace MyNamespace {
+    class MyClass {
+    public:
+        std::string doSomething();
+    };
+}
+```
+在`MyClass.cpp`文件中实现类
+```c++
+#include "MyClass.h"
+namespace MyNamespace { // 注意点2
+    void MyClass::doSomething() {
+        std::cout << "Doing something." << std::endl;
+    }
+}
+// 这样也行,直接用全名定义
+std::string Mynamespace::MyClass::doSomething()
+{
+	return "Doing something.";
+}
+```
+- **注意点1**：一定不要把`#include`语句放在自定义的命名空间里，不然就相当于给原有命名空间外套了一层新命名空间，会导致无法找到功能的实现（因为实现没有被包裹在这个命名空间里）。
+- **注意点2**：和注意点1相呼应地，头文件和源文件里关于该类的内容都要放在命名空间里，不然编译器无法将它们对应起来。
 # Static in Class and Struct
 [[Static in C++#类内Static]]
 # Constructor

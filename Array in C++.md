@@ -7,3 +7,5 @@
 3. 释放堆内存的正确语法：销毁堆上的数组时，必须带上方括号，使用`delete[]`
 # std中的array
 [[Static Array in C++(std中的array)]]
+# 多维度的array
+[[Multidimensional Arrays in C++(2D array)]]

@@ -4,7 +4,7 @@
 把头文件([[C++ Header Files]])复制粘帖到源文件里，源文件文本替换，源文件文本是否编译([[How the C++ Compiler Works#预处理]])。
 ___
 # 2.编译与链接
-编译器([[How the C++ Compiler Works]])将源文件转换为机器语言
+编译器([[How the C++ Compiler Works]])将源文件转换为机器语言，每个源文件单独编译
 在vs code需要配置编译任务(task.json)和调试环境(launch.json)
 目前建议不要在vscode里开发，在xcode或者VS里开发
 > [!info]- task.json模版

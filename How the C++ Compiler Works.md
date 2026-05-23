@@ -1,4 +1,5 @@
-将源文件(as translation unit)编译为中间文件(名为对象文件)，编译的最终功能是将所有代码编译为数据或者指令
+将源文件(as translation unit)编译为中间文件(名为对象文件)，编译的最终功能是将所有代码编译为数据或者指令。
+**每个 `.cpp` 源文件对应一个独立的“翻译单元”（translation unit）**，它们被分开编译，最后再链接到一起。**每个 `.cpp` 文件确实就像一个拥有独立作用域的小世界**。唯一的“共享”途径是通过 **头文件**把各种声明复制到翻译单元里，然后在链接时寻找定义
 ___
 # Files
 >[!tip] files have no meaning in c++,they only provide content
