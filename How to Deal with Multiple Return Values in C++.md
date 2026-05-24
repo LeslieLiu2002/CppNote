@@ -6,6 +6,7 @@
 # 使用标准库的 `std::tuple` 和 `std::pair`
 - 这两个类型可以打包返回不同类型的多个变量。使用 `tuple`需要在提取时使用 `std::get<0>(tuple变量名)` 等语法；而 `pair` 则使用 `.first` 和 `.second` 提取数据。
 - 可读性差
+- 在C++17及以上的版本，可以使用Structured Binding简化[[Structured Binding]]。
 # 自定义结构体 (`struct`)
 - 这是作者**最推荐**的方式。专门为要返回的数据定义一个结构体（例如 `ShaderProgramSource`），给每一个返回值起一个清晰的变量名，然后让函数直接返回这个结构体。
 - 底层上和`pair`类似，通常在栈上分配。可以为各个字段显式命名，可读性高

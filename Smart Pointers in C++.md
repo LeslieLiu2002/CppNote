@@ -22,7 +22,8 @@ std::unique_ptr<T> ptr = std::make_unique<T>();
 ## 语法
 ```c++
 std::shared_ptr<T> ptr = std::make_shared<T>();//标准语法
-std::shared_ptr<T> ptr(new T());// 可以编译，但是不安全
+std::shared_ptr<T> ptr(new T());// 直接调用构造函数，可以编译，但是不推荐
+std::shared_ptr<T> ptr = std::shared_ptr<T>(new T());// 先创建一个右值，调用移动构造函数，但不推荐
 ```
 - `shared_ptr`需要分配另一个内存块，称为控制块，用于存储引用计数
 - 使用new语法需要分配两次内存（对象一次，控制块一次），而使用标准语法会将对象和控制块一起分配

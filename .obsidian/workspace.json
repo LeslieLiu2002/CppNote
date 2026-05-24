@@ -4,53 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "23daf18d41440df4",
+        "id": "d0c7999797a8b7ef",
         "type": "tabs",
         "children": [
           {
-            "id": "65d3d8bb320f904d",
+            "id": "2f8cc3161d6213bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Member Initializer Lists in C++.md",
+                "file": "Structured Binding.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Member Initializer Lists in C++"
+              "title": "Structured Binding"
             }
           },
           {
-            "id": "80a961225f4ccf9c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "How the C++ Compiler Works.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "How the C++ Compiler Works"
-            }
-          },
-          {
-            "id": "bcef4819a3154530",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "References in C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "References in C++"
-            }
-          },
-          {
-            "id": "8d42a7bd83da7734",
+            "id": "374ccc507bc7d855",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -64,119 +36,35 @@
             }
           },
           {
-            "id": "65728d80fbc8ac39",
+            "id": "58271ed1e677bc1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Class in C++.md",
+                "file": "Inheritance in C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Class in C++"
+              "title": "Inheritance in C++"
             }
           },
           {
-            "id": "3bb01d399cffe975",
+            "id": "27f6c7e48846cd08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stack vs Heap Memory in C++.md",
+                "file": "Inheritance in C++.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stack vs Heap Memory in C++"
-            }
-          },
-          {
-            "id": "e5d2997ca07afd6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Timing in C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Timing in C++"
-            }
-          },
-          {
-            "id": "7a700bdb2db9280e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Array in C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Array in C++"
-            }
-          },
-          {
-            "id": "98dff3463f312fbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Destructor in C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Destructor in C++"
-            }
-          },
-          {
-            "id": "0732e77fdb8f1a81",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Virtual Destructor in C++.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Virtual Destructor in C++"
-            }
-          },
-          {
-            "id": "48c061fccb8f70ac",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Array in C++.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Array in C++"
-            }
-          },
-          {
-            "id": "bf184c632bc8a6ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Template in C++.md",
-                "mode": "preview",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Template in C++"
+              "title": "Inheritance in C++"
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -338,34 +226,34 @@
       "bases:新建数据库": false
     }
   },
-  "active": "e5f65fd2fd40bec7",
+  "active": "374ccc507bc7d855",
   "lastOpenFiles": [
-    "Virtual Function in C++.md",
+    "Structured Binding.md",
+    "How to Deal with Multiple Return Values in C++.md",
     "Function Pointer in C++.md",
+    "Multidimensional Arrays in C++(2D array).md",
+    "Smart Pointers in C++.md",
+    "Casting in C++.md",
+    "Inheritance in C++.md",
+    "Precompiled Header in C++.md",
+    "How the C++ Compiler Works.md",
+    "Type Punning in C++.md",
+    "Template in C++.md",
+    "Virtual Destructor in C++.md",
+    "Virtual Function in C++.md",
     "Pointers in C++.md",
     "Class in C++.md",
     "Macro in C++.md",
     "C++ Header Files.md",
-    "Inheritance in C++.md",
-    "Virtual Destructor in C++.md",
     "Destructor in C++.md",
     "Union in C++.md",
     "Array in C++.md",
     "Static Array in C++(std中的array).md",
-    "Multidimensional Arrays in C++(2D array).md",
     "Timing in C++.md",
     "Stack vs Heap Memory in C++.md",
     "Thread in C++.md",
-    "How the C++ Compiler Works.md",
     "How C++ Works.md",
     "Using Libraries in C++ (Static Linking).md",
-    "Making and Working with Libraries in C++ (Multiple Projects in Visual Studio).md",
-    "Const in C++.md",
-    "Smart Pointers in C++.md",
-    "Copying and Copy Constructor in C++.md",
-    "Constructor in C++.md",
-    "Interface in C++(Pure Virtual Function).md",
-    "Lambda in C++.md",
     "未命名 2.base",
     "未命名 1.base",
     "未命名.base"
